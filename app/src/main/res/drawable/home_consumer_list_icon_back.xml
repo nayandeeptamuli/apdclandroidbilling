@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="oval">
+            <size
+                android:width="50dp"
+                android:height="50dp" />
+            <solid
+                android:color="@color/colorPrimary">
+
+            </solid>
+        </shape>
+    </item>
+
+</layer-list>

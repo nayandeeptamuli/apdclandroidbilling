@@ -1,0 +1,11 @@
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

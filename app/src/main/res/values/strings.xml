@@ -1,0 +1,178 @@
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<resources>
+    <string name="app_name">देयक Energy Billing Lite</string>
+    <string name="department">APDCL</string>
+    <string name="department_bill_tag">APDCL Bill</string>
+
+
+    <!-- title -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_dbtransfer">DB Transfer</string>
+    <string name="title_activity_consumer">Consumer List</string>
+    <string name="title_activity_reading">Meter Reading</string>
+    <string name="title_activity_billprint">Bill Print</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_survey">Survey</string>
+    <string name="title_activity_qrcodescan">Scan QR Code</string>
+    <string name="title_activity_payment">Payment</string>
+
+    <!-- Open Activity -->
+    <string name="open_tag_1">Presented by</string>
+    <string name="open_tag_2">देयक</string>
+    <string name="open_tag_3">Energy Billing</string>
+
+    <!-- Home Activity -->
+    <string name="home_list_1">Billing</string>
+    <string name="home_list_2">Payment</string>
+    <string name="home_list_3">Bill Re-print</string>
+    <string name="home_list_4">Rejected Billing</string>
+
+    <!-- Login Activity -->
+    <string name="activity_login_tag">देयक</string>
+    <string name="login_edittext_hint">PIN</string>
+
+    <!-- DB Transfer Activity -->
+    <string name="dbtransfer_import_tag">Import Database</string>
+    <string name="dbtransfer_export_tag">Backup Database</string>
+    <string name="dbtransfer_down_tag">Download Database</string>
+
+    <!-- Consumer Activity -->
+    <string-array name="conlist_by_list">
+        <item>By Name</item>
+        <item>By DEYAK ID</item>
+        <item>By Meter No</item>
+        <item>By Address</item>
+    </string-array>
+
+    <!-- Survey -->
+    <string name="survey_input_1">Consumer 10 digit Mobile No</string>
+    <string name="survey_input_2">Meter Serial no</string>
+    <string name="survey_input_3">Meter Type</string>
+    <string name="survey_input_4">Meter Height in feet</string>
+    <string name="survey_input_5">Consumer Type</string>
+    <array name="survey_consumertype_array">
+        <item>Select One</item>
+        <item>Individual</item>
+        <item>Governmental Office</item>
+        <item>Private Office</item>
+        <item>Industry</item>
+        <item>Other</item>
+    </array>
+    <array name="survey_metertype_array">
+        <item>Select One</item>
+        <item>Digital</item>
+        <item>Analog</item>
+    </array>
+
+    <!-- Meter Reading -->
+    <string name="meterreading_input_1">Status</string>
+    <string name="meterreading_input_2">Reading</string>
+    <string name="meterreading_input_3">Confirm Reading</string>
+    <string name="meterreading_input_4">Power Factor</string>
+    <string name="meterreading_hint">Type here</string>
+    <string-array name="meter_status_list">
+        <item>Meter OK</item>
+        <item>Faulty Meter</item>
+        <item>Meter Locked</item>
+        <item>Meter Overflow</item>
+        <item>Meter Changed</item>
+        <item>Meter Stopped</item>
+        <item>Meter Missing</item>
+    </string-array>
+
+
+    <!-- Bill Print for APDCL -->
+    <string name="bp_error">Connect Bluetooth, Print the Slip and move to next consumer.</string>
+    <!-- section 1-->
+    <string name="bp_s1_subdivision">Sub-Division :</string>
+    <string name="bp_s1_billdate">Bill Date :</string>
+    <string name="bp_s1_billno">Bill no :</string>
+    <string name="bp_s1_billperiod">Bill Period :</string>
+    <string name="bp_s1_duedate">Due Date :</string>
+    <!-- section 2 -->
+    <string name="bp_s2_id">ID :</string>
+    <string name="bp_s2_1_id">DEYAK ID :</string>
+    <string name="bp_s2_name">Name :</string>
+    <string name="bp_s2_address">Address :</string>
+    <!-- section 3 -->
+    <string name="bp_s3_category">Category :</string>
+    <string name="bp_s3_connection">Type of Connection :</string>
+    <string name="bp_s3_mfactor">Multiplying Factor :</string>
+    <string name="bp_s3_load">Contracted Load :</string>
+    <!-- section bill -->
+    <string name="bp_bill_meterno">Meter No :</string>
+    <string name="bp_bill_reading_tag">Meter Reading :</string>
+    <string name="bp_bill_reading_prev">Previous :</string>
+    <string name="bp_bill_reading_pres">Present :</string>
+    <string name="bp_bill_consumedunit">Consumed Units :</string>
+    <string name="bp_bill_billedunit">Billed Units :</string>
+    <!-- Section charges -->
+    <string name="bp_charge_tag">Charge Details :</string>
+    <string name="bp_charge_energy">Energy Charge :</string>
+    <string name="bp_charge_subsidy">Subsidy :</string>
+    <string name="bp_charge_totenergy">Total Energy Charge :</string>
+    <string name="bp_charge_fixed">Fixed Charge :</string>
+    <string name="bp_charge_meterrent">Meter Rent :</string>
+    <string name="bp_charge_duty">Electricity Duty :</string>
+    <string name="bp_charge_fppa">FPPPA Charge :</string>
+    <string name="bp_charge_currentdemand">Current Demand :</string>
+    <string name="bp_charge_arrear">Total Arrear :</string>
+    <string name="bp_charge_adjustment">Adjustment :</string>
+    <string name="bp_charge_netbillamount">Net Bill Amount :</string>
+    <string name="bp_charge_netbillamount_due">NBA After due date :</string>
+
+    <string name="bp_not_ok">Though, this consumer\'s meter is defected. So, tell the consumer to go to the subdivision with the printed slip.</string>
+
+
+    <!-- Report Activity -->
+    <string name="report_text_caption">Total no of billing data remaining to upload</string>
+    <string name="report_button_caption">Tap on this above icon to upload </string>
+    <string name="report_button_caption_2">Tap on this above icon to download </string>
+
+    <!-- Payment Activity -->
+    <string name="payment_text_search_tag">Search by Consumer ID</string>
+    <string name="payment_text_search_hint">Type here</string>
+    <string name="payment_text_search_scan">Scan QR Code</string>
+    <string name="payment_text_search_caption">Consumer Charges</string>
+    <string name="payment_text_search_tag_1">Principal : - </string>
+    <string name="payment_text_search_tag_2">Surcharge : - </string>
+    <string name="payment_text_search_tag_3">Credit : - </string>
+    <string name="payment_text_search_tag_total">Total : - </string>
+    <string name="payment_text_amount_tag">Enter payment amount</string>
+
+
+    <!-- Menu -->
+    <string name="dbtransfer_menu_item_1">Close</string>
+
+    <string name="home_menu_item_1">Quit</string>
+    <string name="home_menu_item_2">Upload Report</string>
+
+    <string name="consumer_menu_item_1">Close</string>
+    <string name="consumer_menu_item_2">Search</string>
+    <string name="consumer_menu_item_3">DTR reload</string>
+
+    <string name="survey_menu_item_1">Close</string>
+    <string name="survey_menu_item_2">OK</string>
+
+    <string name="reading_menu_item_1">Close</string>
+    <string name="reading_menu_item_2">OK</string>
+
+    <string name="billprint_menu_item_1">Close</string>
+    <string name="billprint_menu_item_2">Bluetooth Connect</string>
+    <string name="billprint_menu_item_3">Print</string>
+    <string name="billprint_menu_item_4">Edit</string>
+
+    <string name="report_menu_item_1">Close</string>
+
+
+    <!-- Bluetooth -->
+    <string name="select_device">Select Bluetooth Printer</string>
+    <string name="title_item_list"></string>
+    <string name="title_item_detail"></string>
+
+</resources>

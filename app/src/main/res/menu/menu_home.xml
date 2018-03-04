@@ -1,0 +1,25 @@
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.arkipl.deyakagentbillinglite.HomeActivity">
+
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_action_quit"
+        android:title="@string/home_menu_item_1"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_report"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_action_report"
+        android:title="@string/home_menu_item_2"
+        app:showAsAction="always" />
+
+</menu>

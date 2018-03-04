@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nayandeeptamuli.apdclandroidbilling.ReadingActivity">
+
+    <ImageView
+        android:id="@+id/reading_image"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/pic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorSecond">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_back"
+            android:orientation="vertical"
+            android:layout_marginBottom="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <Spinner
+                android:id="@+id/meterreading_input_1"
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16dp"
+                android:fontFamily="calibri"
+                android:spinnerMode="dialog"
+                android:background="@drawable/form_input_back"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_back"
+            android:orientation="vertical"
+            android:layout_marginBottom="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/form_tag"
+                android:text="@string/meterreading_input_2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/meterreading_input_2"
+
+                    android:enabled="false"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="7dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="16dp"
+                    android:fontFamily="calibri"
+                    android:hint="@string/meterreading_hint"
+                    android:inputType="numberSigned"
+                    android:background="@drawable/form_input_back"/>
+
+                <ImageView android:id="@+id/reading_voice"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/ic_action_voice_dark"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/meterreading_input_2_error"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:textSize="12dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/form_error"
+                android:gravity="right"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_back"
+            android:orientation="vertical"
+            android:layout_marginBottom="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/form_tag"
+                android:text="@string/meterreading_input_3"/>
+
+            <EditText
+                android:id="@+id/meterreading_input_3"
+
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="7dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16dp"
+                android:fontFamily="calibri"
+                android:hint="@string/meterreading_hint"
+                android:inputType="numberPassword"
+                android:background="@drawable/form_input_back"/>
+
+            <TextView
+                android:id="@+id/meterreading_input_3_error"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:textSize="12dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/form_error"
+                android:gravity="right"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/powerfactor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_back"
+            android:orientation="vertical"
+            android:layout_marginBottom="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/form_tag"
+                android:text="@string/meterreading_input_4"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/meterreading_input_4"
+
+                    android:enabled="false"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="7dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="16dp"
+                    android:fontFamily="calibri"
+                    android:hint="@string/meterreading_hint"
+                    android:inputType="numberSigned"
+                    android:background="@drawable/form_input_back"/>
+
+                <ImageView android:id="@+id/pf_voice"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/ic_action_voice_dark"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/meterreading_input_4_error"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:textSize="12dp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/form_error"
+                android:gravity="right"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

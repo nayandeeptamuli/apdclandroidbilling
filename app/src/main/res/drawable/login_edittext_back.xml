@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape
+            android:shape="rectangle">
+            <size
+                android:width="250dp"
+                android:height="50dp">
+            </size>
+            <corners android:radius="12dp" />
+            <gradient
+                android:angle="315"
+                android:startColor="@color/login_edittext_shadow_start"
+                android:endColor="@color/login_edittext_shadow_end">
+            </gradient>
+        </shape>
+    </item>
+
+
+    <item android:left="3dp" android:top="3dp">
+        <shape
+            android:shape="rectangle">
+            <size
+                android:width="247dp"
+                android:height="47dp">
+            </size>
+            <corners android:radius="10dp" />
+            <solid android:color="@color/login_edittext_main"/>
+        </shape>
+    </item>
+</layer-list>

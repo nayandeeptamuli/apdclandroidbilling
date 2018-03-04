@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorSecond"
+    tools:context="com.nayandeeptamuli.apdclandroidbilling.ReportActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/report_layout_caption"
+        android:text="@string/report_text_caption"/>
+
+
+    <LinearLayout
+        android:id="@+id/uno_holder"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_border"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/updatetotal"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textColor="@color/colorSecond"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:background="@drawable/home_consumer_list_icon_back"
+            android:text="0"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_border"
+        android:gravity="center_horizontal">
+
+        <LinearLayout android:id="@+id/progress_holder"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/progress_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="60%"/>
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/upload_button_holder"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView android:id="@+id/upload_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_action_upload"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/report_layout_caption"
+                android:text="@string/report_button_caption"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/download_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView android:id="@+id/down_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_action_download"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/report_layout_caption"
+                android:text="@string/report_button_caption_2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

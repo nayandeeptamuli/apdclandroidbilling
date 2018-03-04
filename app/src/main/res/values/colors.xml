@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<resources>
+    <color name="colorPrimary">#22582c</color>
+    <color name="colorPrimaryDark">#22582c</color>
+    <color name="colorAccent">#22582c</color>
+    <color name="navigationBarColor">#22582c</color>
+    <color name="colorSecond">#ffffff</color>
+    <color name="colorThird">#000000</color>
+
+    <!-- Open Colors -->
+    <color name="open_tag">#ffffff</color>
+
+    <!-- login colors -->
+    <color name="login_tag">#ffffff</color>
+
+    <color name="login_edittext_shadow_start">#66333333</color>
+    <color name="login_edittext_shadow_end">#44333333</color>
+    <color name="login_edittext_main">#ffffff</color>
+
+    <color name="login_textview_firstmessage">#ffffff</color>
+
+
+    <!-- DB Transfer -->
+    <color name="dbtransfer_list_backcolor">#22582c</color>
+    <color name="dbtransfer_list_text">#ffffff</color>
+
+
+    <!-- Home -->
+    <color name="home_layout_consumer_list_back">#ffffff</color>
+    <color name="home_layout_consumer_list_text_1">#000000</color>
+
+
+    <!-- Report -->
+    <color name="report_layout_caption">#000000</color>
+
+
+    <!-- common -->
+    <color name="list_background">#f0f0f0</color>
+    <color name="list_icon_back">#ffffff</color>
+    <color name="list_icon_border">#e4e4e4</color>
+    <color name="list_text">#646464</color>
+
+    <color name="form_background">#f0f0f0</color>
+    <color name="form_border">#dddddd</color>
+    <color name="form_tag">#464646</color>
+    <color name="form_error">#BD1010</color>
+    <color name="form_input_back">#ffffff</color>
+    <color name="form_input_border">#dddddd</color>
+    <color name="form_input_border_error">#BD1010</color>
+
+    <color name="search_hint">#cccccc</color>
+
+</resources>
